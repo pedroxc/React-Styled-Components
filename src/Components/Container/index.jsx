@@ -1,17 +1,18 @@
 import React from "react";
 
-import Titulo from "../Titulo";
+import {Titulo,Container,Conteudo} from "./styled";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 
-const Container = () => {
+export default () => {
   return (
-    <div className="container">
-      <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+    <Container>
+      <Titulo>Olá Pedro!</Titulo>
+      <Conteudo>
         <Conta />
-      </section>
-    </div>
+        <Extrato/>
+      </Conteudo>
+    </Container>
   );
 };
 
-export default Container;
