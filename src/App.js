@@ -4,6 +4,7 @@ import { temaClaro, temaEscuro } from "./Components/UI/temas";
 
 import Cabecalho from "./Components/Cabecalho";
 import Container from "./Components/Container";
+import Footer from './Components/Footer'
 import { GlobalStyle } from './styles/Global/GlobalStyle'
 import { BtnTema } from './Components/UI'
 import SwitcherTema from './Components/SwitcherTema'
@@ -22,6 +23,7 @@ function App() {
       </BtnTema>
       <Cabecalho />
       <Container />
+      <Footer />
     </ThemeProvider>
 
   );
